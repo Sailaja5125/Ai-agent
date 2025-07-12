@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## More about the ai-agent 
+The application is made for automating the tasks 
+i.e sending emails , messages to individual or a group of people in an organization etc within just one click 
+
+ChatGpt vs ours 
+ChatGpt writes the email but our Application both writes the email and also sends to the particular person whose email address is given in just one click 
+not only a single person but also a group of people in an organization just import a datasheet or enter a custom data to our application and it does in a Jiffy !!
+Services not only Restricted to Email but also for sending sms messages also 
+
+## Architecture 
+
+* single person
+user Prompt -> vercel SDK (ai) -> writes an email and returns the given email id's in the prompt (also can use regex) -> sending the given mail to Mail sending applications (mailchimp or mail trap or SMTP using python) -> hence mail sent 
+
+* an Organization
+user Prompt -> vercel SDK (ai) -> writes an email for an organization -> inserts a doc or inserts in the given user interface i.e table of name and email -> sending the given mail to Mail sending applications (mailchimp or mail trap or SMTP in form of an array [] ) -> hence mail is sent 
+
+## More features that have to disscussed before adding 
