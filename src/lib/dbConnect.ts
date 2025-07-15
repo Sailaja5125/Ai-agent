@@ -10,7 +10,7 @@ const dbConnect  = async():Promise<void>=>{
         return;
     }
     try{
-         const db = await mongoose.connect("");
+         const db = await mongoose.connect(process.env.MONGO_URL||"");
          connection.isConnected = db.connections[0].readyState;
          console.log("Connected to the database");
     }catch(error){

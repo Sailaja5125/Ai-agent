@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/groq": "^1.2.9",
+    "@emailjs/browser": "^4.4.1",
+    "ai": "^4.3.17",
     "mongoose": "^8.16.1",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "zod": "^4.0.5"
+    "resend": "^4.6.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
