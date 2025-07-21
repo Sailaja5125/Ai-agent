@@ -54,3 +54,7 @@ user Prompt -> vercel SDK (ai) -> writes an email and returns the given email id
 user Prompt -> vercel SDK (ai) -> writes an email for an organization -> inserts a doc or inserts in the given user interface i.e table of name and email -> sending the given mail to Mail sending applications (mailchimp or mail trap or SMTP in form of an array [] ) -> hence mail is sent 
 
 ## More features that have to disscussed before adding 
+
+## user creation finished 
+## email bot finished to send emails to one or two users 
+## for more than one user 
