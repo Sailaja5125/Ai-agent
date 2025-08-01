@@ -1,9 +1,10 @@
+import HomePage from "@/components/HomePage";
 
 
 export default function Home() {
   return (
-    <div className="">
-    frontend raayali ekkada
+    <div className="bg-[#151515] min-h-screen">
+      <HomePage/>
     </div>
   );
 }

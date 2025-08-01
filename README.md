@@ -55,6 +55,16 @@ user Prompt -> vercel SDK (ai) -> writes an email for an organization -> inserts
 
 ## More features that have to disscussed before adding 
 
-## user creation finished 
-## email bot finished to send emails to one or two users 
-## for more than one user 
+## user creation finished ✅
+## email bot finished to send emails to one or two users ✅
+## for more than one user ✅
+## Email API (mail trap sandbox.io) setup completed ✅
+## Build Home Page 
+## Build Create Account Page
+## Build OAuth using client and other third party applications
+## Build Require chatbot page
+## build Voice integeration also to it
+## similarly build messaging service -another api
+## ads service -another api
+## analytics Service -another api
+## any other Service 
