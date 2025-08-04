@@ -6,14 +6,15 @@ export async function POST(request: Request){
         await dbConnect();
         const { email , password } = await request.json();
         const isUserExists = await UserModel.findOne({email});
-        // if(isUserExists){
-        //     return Response.json({
-        //         message:"User already exists with this email",
-        //         success: true
-        //     }, {
-        //         status:200
-        //     })
-        // }
+        // if user already exists, return a message with success because I don't want to throw an error
+        if(isUserExists){
+            return Response.json({
+                message:"User already exists with this email",
+                success: true
+            }, {
+                status:200
+            })
+        }
         const newUser = await UserModel.create({email, password});
         return Response.json({
             message:"User created successfully",

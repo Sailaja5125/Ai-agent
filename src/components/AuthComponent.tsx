@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation';
 import { useDebounce } from 'use-debounce';
 import toast, { Toaster } from 'react-hot-toast';
 import axios, { AxiosError } from 'axios';
-
+// Successfully completed the code for AuthComponent.tsx
 const AuthComponent = () => {
   const router = useRouter();
 
@@ -105,7 +105,7 @@ const AuthComponent = () => {
         )}
 
         {checkingPassword ? (
-          <p className="feedback">Checking password strength...</p>
+          <p className="feedback text-gray-900">Checking password strength...</p>
         ) : passwordMessage ? (
           <p className="feedback">{passwordMessage}</p>
         ) : null}
