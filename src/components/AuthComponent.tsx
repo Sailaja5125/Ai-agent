@@ -105,9 +105,9 @@ const AuthComponent = () => {
         )}
 
         {checkingPassword ? (
-          <p className="feedback text-gray-900">Checking password strength...</p>
+          <p className="feedback text-gray-900 text-balance">Checking password strength...</p>
         ) : passwordMessage ? (
-          <p className="feedback">{passwordMessage}</p>
+          <p className="feedback text-gray-900 text-balance">{passwordMessage}</p>
         ) : null}
 
         <div className="login-with">
